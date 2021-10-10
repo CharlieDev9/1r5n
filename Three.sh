@@ -1,5 +1,5 @@
 sudo pacman -Ss xf86-video-amdgpu
-#sudo pacman -S mesa xorg xorg-server plasma alsa-utils vulkan-swrast vulkan-tools alsa-firmware alsa-plugins firefox konsole dolphin vlc mpv inkscape telegram-desktop gwenview kdenlive gparted htop gvfs-mtp wget ark unrar unzip p7zip
+sudo pacman -S mesa xorg xorg-server plasma alsa-utils vulkan-swrast vulkan-tools alsa-firmware alsa-plugins firefox konsole dolphin vlc mpv inkscape telegram-desktop gwenview kdenlive gparted htop gvfs-mtp wget ark unrar unzip p7zip
 
 sudo pacman -S mesa xorg xorg-server xorg-xinit alsa-utils vulkan-swrast vulkan-tools alsa-firmware alsa-plugins firefox konsole dolphin vlc telegram-desktop gwenview gparted htop gvfs-mtp wget ark unrar unzip p7zip
 
@@ -38,10 +38,10 @@ makepkg -si
 cd
 
 
-#git clone https://aur.archlinux.org/latte-dock-git.git
-#cd latte-dock-git
-#makepkg -si
-#cd
+git clone https://aur.archlinux.org/latte-dock-git.git
+cd latte-dock-git
+makepkg -si
+cd
 
 
 #git clone https://aur.archlinux.org/protonvpn-cli-ng.git
@@ -55,9 +55,9 @@ cd
 #makepkg -si
 #cd
 
-#cd /home/charlie/Charlie/Apps
-#sudo chmod +x ./Xdm.sh
-#sudo ./Xdm.sh
+cd /home/charlie/Charlie/Apps
+sudo chmod +x ./Xdm.sh
+sudo ./Xdm.sh
 
 wget https://mail.tutanota.com/desktop/tutanota-desktop-linux.AppImage
 #sudo chmod +x ./tutanota-desktop-linux.AppImage
