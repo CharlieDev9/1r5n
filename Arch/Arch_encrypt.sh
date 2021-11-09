@@ -6,7 +6,7 @@ clear
 
 
 echo "cryptsetup open /dev/sda3 mecw"
-cryptsetup open /dev/sda3
+cryptsetup open /dev/sda3 mecw
 sleep 1
 read -p "Do you want try?" tr
 if [ $tr == 'y']; then
@@ -102,7 +102,7 @@ fi
 clear
 
 echo "pacstrap /mnt base base-devel linux-lts linux-lts-headers linux-firmware mkinitcpio lvm2 nano dhcpcd wpa_supplicant git"
-pacstrap -i /mnt base base-devel linux-lts linux-lts-headers linux-firmware mkinitcpio lvm2 nano dhcpcd wpa_supplicant git
+pacstrap -i /mnt base base-devel linux-lts linux-lts-headers linux-firmware mkinitcpio lvm2 nano dhcpcd wpa_supplicant git reflector
 
 sleep 3
 
