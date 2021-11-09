@@ -104,7 +104,7 @@ head -c 64 /dev/urandom > /root/secrets/crypto_keyfile.bin && chmod 600 /root/se
 sleep 10
 
 echo "luksAddKey"
-cryptsetup -v luksAddKey -i 1 /dev/nvme0n1p3 /root/secrets/crypto_keyfile.bin
+cryptsetup -v luksAddKey -i 1 /dev/sda3 /root/secrets/crypto_keyfile.bin
 
 sleep 10
 
