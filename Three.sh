@@ -1,5 +1,5 @@
 sudo pacman -Ss xf86-video-amdgpu
-sudo pacman -S mesa xorg xorg-server plasma alsa-utils vulkan-swrast vulkan-tools alsa-firmware alsa-plugins firefox konsole dolphin vlc mpv inkscape telegram-desktop gwenview kdenlive gparted htop gvfs-mtp wget ark unrar unzip p7zip
+sudo pacman -S mesa plasma-wayland-session xorg xorg-server plasma alsa-utils vulkan-swrast vulkan-tools alsa-firmware alsa-plugins firefox konsole dolphin vlc mpv inkscape telegram-desktop gwenview kdenlive gparted htop gvfs-mtp wget ark unrar unzip p7zip
 
 sudo pacman -S mesa xorg xorg-server xorg-xinit alsa-utils vulkan-swrast vulkan-tools alsa-firmware alsa-plugins firefox konsole dolphin vlc telegram-desktop gwenview gparted htop gvfs-mtp wget ark unrar unzip p7zip
 sudo pacman -S --needed lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader
